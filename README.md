@@ -17,10 +17,10 @@ Develop two solutions that are cross-platform compatible and delivers the same f
 
 ## Explanations
 
-HTML Object:
+HTML Object: https://github.com/clifhodges13/ess-solution-1
   * By using an HTML object with an HTML embed, we can embed external pages into our page without the use of an iframe. The tricky part was having access to the DOM elements inside of the embedded page from the index.html. I was able to change the contents of the embed by updating the src attribute when the navBtn was clicked. The HTML object and embed are supported in all browsers, including Internet Explorer.
 
-React Application:
+React Application: https://github.com/clifhodges13/ess-solution-2
   * I chose to build this solution using a React application because of the maintainability and reusability. The create-react-app, used to bootstrap this application also comes with out-of-the-box cross-browser compatibility. Because React works with the Virtual DOM, it only rerenders those components whose state changes. This prevents an entire page refresh after every user request.
   * Styled components were used here to separate the styles.
   * Run `npm start` to boot up the local server and view the solution in your browser.
